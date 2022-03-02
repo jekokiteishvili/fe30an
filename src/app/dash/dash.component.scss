@@ -1,0 +1,21 @@
+header{
+    background: {
+        size: cover;
+        image: url('https://cumbia.com.au/wp-content/uploads/2018/01/background-img-1.jpg');
+        position: center;
+        repeat:no-repeat;
+    };
+
+    height: 500px;
+   
+}
+.loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    backdrop-filter: blur(7.5px);
+    opacity: 1.6;
+    top: 0;
+    left: 0;
+}
